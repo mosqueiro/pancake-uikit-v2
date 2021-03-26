@@ -4,10 +4,24 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-x="0px" y="0px" width="32px" height="24px" viewBox="0 0 32 24" enable-background="new 0 0 32 24">
-<image id="image0" width="32" height="24" x="0" y="0"
-    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+    <svg
+      version="1.1"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      x="0px"
+      y="0px"
+      width="32px"
+      height="24px"
+      viewBox="0 0 32 24"
+      enable-background="new 0 0 32 24"
+    >
+      <image
+        id="image0"
+        width="32"
+        height="24"
+        x="0"
+        y="0"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAF
 n0lEQVRIx5WWeXAUdRbHP7/ununJZI5kyExCSIyiQIEUGkTXI8b1QvFepcSjylCrFp4s61KUWJal
 VVuLpdbirmhZ3iISo1DlUbreiAdeZS1gJZwKKOdMGGYymZmeme5+/hEnQDbLhPdXv1+/ft/3+77X
@@ -36,8 +50,9 @@ xEBZFgH3/k+UHg/JRHygzWoKXJfaWANi2wyz+zwH3FpWKjEwdCNaCPwIvAgMDgWnVKKmNkLRthER
 vB4Prm0P5+8eYDFHIcPthMuBScB7hx6KCB5dx2sYw+18q4GpRws+HANl+Qm4FDgduJaBdW00EGSg
 dWeBPcC3wErgk6MFLstvvRIpOovXTCUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDMtMTRUMjI6
 MDk6NDgrMDA6MDAh9xnuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTAzLTE0VDIyOjA5OjQ4KzAw
-OjAwUKqhUgAAAABJRU5ErkJggg==" />
-</svg>
+OjAwUKqhUgAAAABJRU5ErkJggg=="
+      />
+    </svg>
   );
 };
 
