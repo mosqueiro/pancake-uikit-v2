@@ -16,9 +16,6 @@ interface Props {
   setLang: (lang: LangType) => void;
 }
 
-const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
-  <>
-  </>
-);
+const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => <></>;
 
 export default React.memo(LangSelector, (prev, next) => prev.currentLang === next.currentLang);
