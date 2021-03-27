@@ -2821,13 +2821,10 @@ var SocialLinks = function () { return (React.createElement(Flex, null, socials.
 var SocialLinks$1 = React.memo(SocialLinks, function () { return true; });
 
 var Icons$3 = IconModule;
-var LanguageIcon = Icons$3.LanguageIcon;
+Icons$3.LanguageIcon;
 var LangSelector = function (_a) {
-    var currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
-    return (React.createElement(Dropdown, { position: "top-right", target: React.createElement(Button, { variant: "text", startIcon: React.createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
-            React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
-        // Safari fix
-        style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
+    _a.currentLang; _a.langs; _a.setLang;
+    return (React.createElement(React.Fragment, null));
 };
 var LangSelector$1 = React.memo(LangSelector, function (prev, next) { return prev.currentLang === next.currentLang; });
 

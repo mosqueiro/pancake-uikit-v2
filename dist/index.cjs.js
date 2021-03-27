@@ -2834,13 +2834,10 @@ var SocialLinks = function () { return (React__default['default'].createElement(
 var SocialLinks$1 = React__default['default'].memo(SocialLinks, function () { return true; });
 
 var Icons$3 = IconModule;
-var LanguageIcon = Icons$3.LanguageIcon;
+Icons$3.LanguageIcon;
 var LangSelector = function (_a) {
-    var currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
-    return (React__default['default'].createElement(Dropdown, { position: "top-right", target: React__default['default'].createElement(Button, { variant: "text", startIcon: React__default['default'].createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
-            React__default['default'].createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
-        // Safari fix
-        style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
+    _a.currentLang; _a.langs; _a.setLang;
+    return (React__default['default'].createElement(React__default['default'].Fragment, null));
 };
 var LangSelector$1 = React__default['default'].memo(LangSelector, function (prev, next) { return prev.currentLang === next.currentLang; });
 
