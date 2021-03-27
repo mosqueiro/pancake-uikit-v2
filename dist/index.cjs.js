@@ -2672,62 +2672,22 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/pancakeswap",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
-            },
-            {
-                label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/pancakeswap_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
+                href: "https://t.me/ZCoreMiners",
             },
             {
                 label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/PancakeswapEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/pancakeswapjp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/pancakeswapfr",
+                href: "hhttps://t.me/ZCoreMinersPT",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
+                href: "https://t.me/ZCoreCrypto",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/zcorecrypto",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2874,10 +2834,13 @@ var SocialLinks = function () { return (React__default['default'].createElement(
 var SocialLinks$1 = React__default['default'].memo(SocialLinks, function () { return true; });
 
 var Icons$3 = IconModule;
-Icons$3.LanguageIcon;
+var LanguageIcon = Icons$3.LanguageIcon;
 var LangSelector = function (_a) {
-    _a.currentLang; _a.langs; _a.setLang;
-    return (React__default['default'].createElement(React__default['default'].Fragment, null));
+    var currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
+    return (React__default['default'].createElement(Dropdown, { position: "top-right", target: React__default['default'].createElement(Button, { variant: "text", startIcon: React__default['default'].createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
+            React__default['default'].createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
+        // Safari fix
+        style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
 };
 var LangSelector$1 = React__default['default'].memo(LangSelector, function (prev, next) { return prev.currentLang === next.currentLang; });
 
