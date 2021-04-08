@@ -2466,26 +2466,32 @@ var Icon$17 = function (props) {
         React__default['default'].createElement("image", { id: "image0", width: "32", height: "24", x: "0", y: "0", href: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAABGdBTUEAALGPC/xhBQAAACBjSFJN\nAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAF\nn0lEQVRIx5WWeXAUdRbHP7/ununJZI5kyExCSIyiQIEUGkTXI8b1QvFepcSjylCrFp4s61KUWJal\nVVuLpdbirmhZ3iISo1DlUbreiAdeZS1gJZwKKOdMGGYymZmeme5+/hEnQDbLhPdXv1+/ft/3+77X\n7z0V7pjJEeQY4GpgOjABiAAKSAGbXY/xqVay3zR37N6oRABBKYVWEhABYPeab4/kH+P/nAeAx4Bb\nAH3oS9G0MJpq0Yv2hUY2vwh/1XKs4nyKhT0YOkcj2jBn04ENwJyh4C7gaApNBKM/hzeZRrMKiOm9\nwQ1VbxKfeaNyD95+JDKUgb8Ajw810j0ekukUpFKQL4DSaIzUYSsQTQPHAU0F3VBgmcpZk40DmYWi\nGwPJqiC67+RJ5ec24PWhBspjkEkmqfcHWHLbPK5rP5ee7dvYsWcXgWAIKd9WQAmI6W0T19lALt8t\nmqJ/5+4RMWACbwEopXBF6Mvn0A0DT6GAvWkzbyxdwVlTTxmItHUaTTPO4UAmg8fQKRRLhKur0ZRC\nXBcnHOjSLOtLsawjox9SA08CEaUUIkLf/gR1/gC+TBbrqzXcffPtg+AAY2IxHl1wP4WNPRSKRaLh\nGnr37cV2HDQRlK4j4dBrI8gAKtwxMwrEAUQp+uJ7mT3jCh658c/EEwm+7l7P6PoG0v0Zbph+CQBv\nfr4KcV2SfWkmHnc845qPYXHXcha99ByRWBQdBbqOluk/ed/HX6yrlIKbykpfOsXYlrG8eNd8AKK1\nEU4cPwHVfhrsT/DZ7FsxPQZLXl0KpRKydtOgo3/MuZM13etZ/d03ROsbQClE1+YAd1QK4JJBzXUx\nvd7DDOKpA+gIxphmnu1cCq7gi8Ww0n307NjGpJbjBm39vipw3d+LUsAwzh5JDYwvK4GaWjZs2cjC\nZS8gImRyWRYsWYyUSoSqqog2txBtOZaQvxpdU9zz+GMkDiQREZas7OKDrz6npr5hwJnjILoeqxSA\nAYTKikcpfDW1PLzseWa0TuOprk66VnQSmzARXJdyexER6kY38sGqj7jKsvj7Lbcx94l/Ylb58BkG\nTpkF8I2EgcFidUUwvD6wbXrTaTZs/xmUwjAMhvY2TdPBa7Ju21YS6RTiunjNKtxDu6BIxR9BA/rL\nitI0+uN7OXXaH2ifPIUn/rqAEyZPIRnfh1IHfSml6Ev2Eos18Mp9D3LeKady9dl/pK83gWgKRFC2\nA6hCpQBUuGPmaqAdIJvNMsrvZ/szr+IzTQD+u2UTU2+aRbA2QqY3ASIEozEyiTjv/OtpLjuzbdDZ\nSR2z6NmyhcioOlzTi13t60ktXXliJQY+Kiu2laexsWkQHKB13AQQyGzdzKXnXsCfLppBZtdOyOcO\nAweY2DIWu1SkWBuiWBPANfQjz2IGZsEOYB6Abprs/GU7J4xpZsqxYwH4vns9bSe1csZpp/Pk3+5l\n1nnTiUZjXHnhxZTyeZpGNwKwau0PPNT5ElpTI7rXi3IclMjdhXU9v1ZKAcAK4BpN08hns1iOw/Vt\n55DKZvnPqg954PZ5PHTN9Yd9+PK7bzN7/lzaL7ucMU1NvPH1F4jrEgqGcB0HYC3Qmn55RcUaAAgD\nvYCh6To5y6KQiIOhQyAIu3fR0/k2E5tbALByOarOPwOiowa8FCyMSB1Bv78MDjAO2FopgPI4LgDd\nwCwRwdB1fMEQvuoAfq9JSSk+6V7P+MYmdu1P0PHvR/g1l6GmvgHT9OELhvAaxsHRDHOB9wEK63pG\nxEBZFgH3/k+UHg/JRHygzWoKXJfaWANi2wyz+zwH3FpWKjEwdCNaCPwIvAgMDgWnVKKmNkLRthER\nvB4Prm0P5+8eYDFHIcPthMuBScB7hx6KCB5dx2sYw+18q4GpRws+HANl+Qm4FDgduJaBdW00EGSg\ndWeBPcC3wErgk6MFLstvvRIpOovXTCUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDMtMTRUMjI6\nMDk6NDgrMDA6MDAh9xnuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTAzLTE0VDIyOjA5OjQ4KzAw\nOjAwUKqhUgAAAABJRU5ErkJggg==" })));
 };
 
-var Icon$18 = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+var Icon$18 = function (props) {
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "-60 -30 600 600" }, props),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("path", { xmlns: "http://www.w3.org/2000/svg", d: "m20 4h-16a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3v-10a3 3 0 0 0 -3-3zm-16 2h16a1 1 0 0 1 1 1v1h-18v-1a1 1 0 0 1 1-1zm16 12h-16a1 1 0 0 1 -1-1v-5h18v5a1 1 0 0 1 -1 1z", fill: "#000000", "data-original": "#000000" }))));
+};
+
+var Icon$19 = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
     React__default['default'].createElement("g", { fillRule: "evenodd" },
         React__default['default'].createElement("path", { d: "M11.549 18.906c3.81 0 6.906-3.09 6.906-6.906A6.908 6.908 0 006.509 7.278a6.909 6.909 0 005.04 11.628zm-2.41-4.173c.063-.225.122-.455.196-.676.083-.26.152-.294.392-.166.411.215.842.333 1.297.391.294.035.583.005.853-.112.51-.22.587-.808.156-1.166a1.937 1.937 0 00-.484-.284c-.446-.196-.911-.343-1.328-.598-.68-.406-1.117-.97-1.063-1.797.06-.94.588-1.523 1.45-1.837.353-.127.358-.122.358-.495v-.377c.005-.279.054-.328.333-.338.088-.005.171 0 .26 0 .592 0 .592 0 .597.593 0 .421 0 .421.421.485.319.049.627.142.921.274.162.074.225.186.176.358-.073.254-.142.514-.225.769-.078.24-.152.274-.382.161a2.904 2.904 0 00-1.46-.289 1.096 1.096 0 00-.391.079c-.441.19-.515.68-.138.984.191.152.407.265.632.358.392.161.784.318 1.156.524 1.185.656 1.504 2.14.671 3.154a2.25 2.25 0 01-1.15.74c-.202.054-.29.161-.28.367.01.206 0 .407 0 .612 0 .182-.093.28-.274.284-.22.005-.441.005-.657 0-.19-.004-.284-.112-.284-.298 0-.147-.005-.3-.005-.446-.005-.328-.014-.343-.328-.392-.406-.064-.803-.157-1.17-.338-.304-.147-.333-.22-.25-.524z" }),
         React__default['default'].createElement("path", { d: "M19.028 19.484c-3.987 3.987-10.389 4.12-14.537.407h1.332v-1.42H2.042V22.25h1.42v-1.376A11.967 11.967 0 0011.544 24c3.076 0 6.147-1.17 8.488-3.512l.504-.504-1.004-1.004-.504.504zM19.635 1.749v1.376A11.967 11.967 0 0011.553 0C8.478 0 5.407 1.17 3.065 3.512l-.5.5L3.57 5.015l.504-.505C8.061.524 14.463.391 18.611 4.104H17.28v1.42H21.06V1.75h-1.425z" })))); };
 
-var Icon$19 = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+var Icon$1a = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
     React__default['default'].createElement("path", { d: "M10.797 17.41a.703.703 0 11-.001 1.406.703.703 0 01.001-1.405m11.02-4.347a.703.703 0 11.002-1.405.703.703 0 01-.002 1.405m0-2.874a2.176 2.176 0 00-2.173 2.173c0 .233.039.465.115.691l-7.178 3.821a2.164 2.164 0 00-1.784-.936c-.828 0-1.583.474-1.948 1.215l-6.45-3.4c-.68-.358-1.19-1.48-1.137-2.502.028-.532.213-.946.493-1.106.178-.1.392-.092.619.027l.043.023c1.709.9 7.301 3.846 7.537 3.955.363.168.565.236 1.184-.057l11.56-6.013c.17-.064.368-.226.368-.472 0-.342-.354-.477-.355-.477-.657-.316-1.668-.789-2.654-1.25-2.107-.987-4.495-2.105-5.544-2.654-.905-.474-1.634-.075-1.764.006l-.253.125C7.776 5.693 1.46 8.822 1.1 9.041.456 9.432.057 10.213.006 11.182c-.081 1.537.703 3.138 1.823 3.726l6.82 3.517a2.174 2.174 0 002.148 1.86 2.176 2.176 0 002.173-2.14l7.51-4.07a2.176 2.176 0 003.51-1.712 2.176 2.176 0 00-2.173-2.173", fillRule: "evenodd" }))); };
 
-var Icon$1a = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+var Icon$1b = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
     React__default['default'].createElement("path", { d: "M11.999 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.386.6.11.819-.26.819-.578 0-.284-.01-1.04-.017-2.04-3.337.724-4.042-1.61-4.042-1.61-.546-1.386-1.332-1.755-1.332-1.755-1.09-.744.082-.73.082-.73 1.205.086 1.838 1.238 1.838 1.238 1.07 1.833 2.81 1.304 3.493.996.109-.775.419-1.304.762-1.603C7.145 17 4.343 15.97 4.343 11.373c0-1.31.468-2.382 1.236-3.22-.124-.304-.536-1.524.118-3.176 0 0 1.007-.323 3.3 1.23.956-.266 1.983-.4 3.003-.404 1.02.005 2.046.138 3.005.404 2.29-1.553 3.296-1.23 3.296-1.23.655 1.652.243 2.872.12 3.176.77.838 1.233 1.91 1.233 3.22 0 4.61-2.806 5.624-5.478 5.921.43.37.814 1.103.814 2.223 0 1.603-.015 2.898-.015 3.291 0 .321.217.695.825.578C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12.001-12", fillRule: "evenodd" }))); };
 
-var Icon$1b = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
+var Icon$1c = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
     React__default['default'].createElement("path", { d: "M28 25V10a1 1 0 00-1-1h-4a1 1 0 00-1 1v15h-2V6a1 1 0 00-1-1h-4a1 1 0 00-1 1v19h-2V15a1 1 0 00-1-1H7a1 1 0 00-1 1v10H4V5H2v21a1 1 0 001 1h27v-2zm-4-14h2v14h-2zm-8-4h2v18h-2zm-8 9h2v9H8z" }))); };
 
-var Icon$1c = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+var Icon$1d = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
     React__default['default'].createElement("g", { fillRule: "evenodd" },
         React__default['default'].createElement("path", { d: "M9.822 16.437l6.716-8.467-5.934-1.717-4.164 7.979z" }),
         React__default['default'].createElement("path", { d: "M21.428 8.124a1.309 1.309 0 00-1.839.213l-9.198 11.596-7.371-4.806 6.853-13.13A1.31 1.31 0 007.552.784L.149 14.97a1.31 1.31 0 00.445 1.702l9.367 6.106c.566.369 1.32.246 1.74-.283l9.94-12.532a1.31 1.31 0 00-.213-1.839zM22.635 13.414c-.723 0-1.31 2.07-1.31 2.793a1.31 1.31 0 002.62 0c0-.723-.587-2.793-1.31-2.793z" })))); };
 
-var Icon$1d = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 48 48" }, props),
+var Icon$1e = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 48 48" }, props),
     React__default['default'].createElement("path", { d: "M0 10H6V16H0z" }),
     React__default['default'].createElement("path", { d: "M0 19.917H6V25.917H0z" }),
     React__default['default'].createElement("path", { d: "M0 30.084H6V36.084H0z" }),
@@ -2493,10 +2499,10 @@ var Icon$1d = function (props) { return (React__default['default'].createElement
     React__default['default'].createElement("path", { d: "M10 19.917H48V25.917H10z" }),
     React__default['default'].createElement("path", { d: "M10 30.084H48V36.084H10z" }))); };
 
-var Icon$1e = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+var Icon$1f = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
     React__default['default'].createElement("path", { d: "M13.545 11.826c0 3.76-3.028 6.81-6.763 6.81-3.736 0-6.764-3.048-6.764-6.81 0-3.762 3.029-6.81 6.764-6.81 3.735 0 6.763 3.049 6.763 6.81zm7.42 0c0 3.54-1.514 6.41-3.382 6.41-1.867 0-3.381-2.87-3.381-6.41s1.514-6.41 3.381-6.41c1.868 0 3.382 2.87 3.382 6.41zm3.035 0c0 3.172-.533 5.743-1.19 5.743-.656 0-1.189-2.572-1.189-5.743 0-3.172.533-5.744 1.19-5.744.657 0 1.189 2.572 1.189 5.744z", fillRule: "evenodd" }))); };
 
-var Icon$1f = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 15" }, props),
+var Icon$1g = function (props) { return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 15" }, props),
     React__default['default'].createElement("g", { fillRule: "nonzero", fill: "none" },
         React__default['default'].createElement("path", { d: "M0 14.777s4.667-.341 6.375-3.984C8.083 7.15 7.798.035 16.108.035c1.822 0 3.818.862 4.91 1.622 5.478 3.814 2.888 11.64-3.544 9.634 0 0 2.334-.1 2.334-3.173 0-3.074-3.848-3.53-4.44-.968-.421 1.825-.17 7.343 7.855 7.627", fill: "#88E2DB" }),
         React__default['default'].createElement("path", { d: "M17.474 11.291c1.992 0 5.891-3.088 3.526-6.768-1.654-2.573-6.172-3.093-9.388.123C8.399 7.858 10.298 14.082.03 14.775c.4-.037 4.718-.51 6.345-3.982C8.083 7.15 7.798.035 16.108.035c1.822 0 3.817.862 4.91 1.622 5.478 3.814 2.888 11.64-3.544 9.634z", fill: "#A5F2EA" }),
@@ -2526,14 +2532,15 @@ var IconModule = /*#__PURE__*/Object.freeze({
     AuditIcon: Icon$15,
     GooseIcon: Icon$16,
     ZCoreIcon: Icon$17,
-    ExchangeIcon: Icon$18,
-    GitbookIcon: Icon$19,
-    GithubIcon: Icon$1a,
-    GraphIcon: Icon$1b,
-    LiquidityIcon: Icon$1c,
-    ListingIcon: Icon$1d,
-    MediumIcon: Icon$1e,
-    WaveIcon: Icon$1f
+    CCIcon: Icon$18,
+    ExchangeIcon: Icon$19,
+    GitbookIcon: Icon$1a,
+    GithubIcon: Icon$1b,
+    GraphIcon: Icon$1c,
+    LiquidityIcon: Icon$1d,
+    ListingIcon: Icon$1e,
+    MediumIcon: Icon$1f,
+    WaveIcon: Icon$1g
 });
 
 var MenuButton = styled__default['default'](Button)(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
@@ -2909,7 +2916,7 @@ var Panel = function (props) {
 };
 var templateObject_1$I;
 
-var Icon$1g = function (props) {
+var Icon$1h = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("circle", { cx: "48", cy: "48", r: "48", fill: "white" }),
         React__default['default'].createElement("path", { d: "M77.7602 16.9155L51.9419 36.0497L56.7382 24.7733L77.7602 16.9155Z", fill: "#E17726" }),
@@ -2943,20 +2950,20 @@ var Icon$1g = function (props) {
         React__default['default'].createElement("path", { d: "M51.9415 50.3617L52.8344 35.4115L56.7378 24.7729H39.262L43.1653 35.4115L44.0583 50.3617L44.3899 55.0559L44.4154 66.664H51.5843L51.6099 55.0559L51.9415 50.3617Z", fill: "#F5841F" })));
 };
 
-var Icon$1h = function (props) {
+var Icon$1i = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("circle", { cx: "48", cy: "48", r: "48", fill: "white" }),
         React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M66.4573 43.7107C64.8919 42.1452 64.8919 39.6071 66.4573 38.0416C68.0228 36.4762 70.5609 36.4762 72.1264 38.0416C73.6918 39.6071 73.6918 42.1452 72.1264 43.7107C70.5609 45.2762 68.0228 45.2762 66.4573 43.7107ZM52.9933 57.1747C51.8192 56.0006 51.8192 54.097 52.9933 52.9229C54.1674 51.7488 56.071 51.7488 57.2451 52.9229C58.4192 54.097 58.4192 56.0006 57.2451 57.1747C56.071 58.3488 54.1674 58.3488 52.9933 57.1747ZM74.2523 50.0884C73.0782 48.9143 73.0782 47.0107 74.2523 45.8366C75.4263 44.6625 77.3299 44.6625 78.504 45.8366C79.6781 47.0107 79.6781 48.9143 78.504 50.0884C77.3299 51.2625 75.4263 51.2625 74.2523 50.0884ZM67.166 57.1747C65.9919 56.0006 65.9919 54.097 67.166 52.9229C68.34 51.7488 70.2436 51.7488 71.4177 52.9229C72.5918 54.097 72.5918 56.0006 71.4177 57.1747C70.2436 58.3488 68.34 58.3488 67.166 57.1747ZM82.0472 56.466C81.2645 55.6833 81.2645 54.4142 82.0472 53.6315C82.8299 52.8488 84.099 52.8488 84.8817 53.6315C85.6644 54.4142 85.6644 55.6833 84.8817 56.466C84.099 57.2488 82.8299 57.2488 82.0472 56.466ZM74.9609 63.5523C74.1782 62.7696 74.1782 61.5005 74.9609 60.7178C75.7436 59.9351 77.0127 59.9351 77.7954 60.7178C78.5781 61.5005 78.5781 62.7696 77.7954 63.5523C77.0127 64.3351 75.7436 64.3351 74.9609 63.5523ZM59.371 50.797C57.8056 49.2315 57.8056 46.6934 59.371 45.1279C60.9365 43.5625 63.4746 43.5625 65.0401 45.1279C66.6055 46.6934 66.6055 49.2315 65.0401 50.797C63.4746 52.3625 60.9365 52.3625 59.371 50.797ZM59.371 36.6244C57.8056 35.0589 57.8056 32.5208 59.371 30.9553C60.9365 29.3899 63.4746 29.3899 65.0401 30.9553C66.6055 32.5208 66.6055 35.0589 65.0401 36.6244C63.4746 38.1898 60.9365 38.1898 59.371 36.6244ZM52.2847 43.7107C50.7193 42.1452 50.7193 39.6071 52.2847 38.0416C53.8502 36.4762 56.3883 36.4762 57.9538 38.0416C59.5192 39.6071 59.5192 42.1452 57.9538 43.7107C56.3883 45.2762 53.8502 45.2762 52.2847 43.7107ZM38.0462 43.7107C36.4808 42.1452 36.4808 39.6071 38.0462 38.0416C39.6117 36.4762 42.1498 36.4762 43.7153 38.0416C45.2807 39.6071 45.2807 42.1452 43.7153 43.7107C42.1498 45.2762 39.6117 45.2762 38.0462 43.7107ZM24.5823 57.1747C23.4082 56.0006 23.4082 54.097 24.5823 52.9229C25.7564 51.7488 27.66 51.7488 28.8341 52.9229C30.0081 54.097 30.0081 56.0006 28.8341 57.1747C27.66 58.3488 25.7564 58.3488 24.5823 57.1747ZM45.8412 50.0884C44.6671 48.9143 44.6671 47.0107 45.8412 45.8366C47.0153 44.6625 48.9189 44.6625 50.093 45.8366C51.2671 47.0107 51.2671 48.9143 50.093 50.0884C48.9189 51.2625 47.0153 51.2625 45.8412 50.0884ZM38.7549 57.1747C37.5808 56.0006 37.5808 54.097 38.7549 52.9229C39.929 51.7488 41.8326 51.7488 43.0067 52.9229C44.1807 54.097 44.1807 56.0006 43.0067 57.1747C41.8326 58.3488 39.929 58.3488 38.7549 57.1747ZM11.1183 56.466C10.3356 55.6833 10.3356 54.4142 11.1183 53.6315C11.901 52.8488 13.1701 52.8488 13.9528 53.6315C14.7356 54.4142 14.7356 55.6833 13.9528 56.466C13.1701 57.2488 11.901 57.2488 11.1183 56.466ZM18.2046 63.5523C17.4219 62.7696 17.4219 61.5005 18.2046 60.7178C18.9873 59.9351 20.2564 59.9351 21.0391 60.7178C21.8219 61.5005 21.8219 62.7696 21.0391 63.5523C20.2564 64.3351 18.9873 64.3351 18.2046 63.5523ZM46.5498 63.5523C45.7671 62.7696 45.7671 61.5005 46.5498 60.7178C47.3325 59.9351 48.6016 59.9351 49.3843 60.7178C50.1671 61.5005 50.1671 62.7696 49.3843 63.5523C48.6016 64.3351 47.3325 64.3351 46.5498 63.5523ZM17.496 50.0884C16.3219 48.9143 16.3219 47.0107 17.496 45.8366C18.6701 44.6625 20.5737 44.6625 21.7478 45.8366C22.9218 47.0107 22.9218 48.9143 21.7478 50.0884C20.5737 51.2625 18.6701 51.2625 17.496 50.0884ZM30.9599 50.797C29.3945 49.2315 29.3945 46.6934 30.9599 45.1279C32.5254 43.5625 35.0635 43.5625 36.629 45.1279C38.1944 46.6934 38.1944 49.2315 36.629 50.797C35.0635 52.3625 32.5254 52.3625 30.9599 50.797ZM30.9599 36.6244C29.3945 35.0589 29.3945 32.5208 30.9599 30.9553C32.5254 29.3899 35.0635 29.3899 36.629 30.9553C38.1944 32.5208 38.1944 35.0589 36.629 36.6244C35.0635 38.1898 32.5254 38.1898 30.9599 36.6244ZM23.8736 43.7107C22.3082 42.1452 22.3082 39.6071 23.8736 38.0416C25.4391 36.4762 27.9772 36.4762 29.5427 38.0416C31.1081 39.6071 31.1081 42.1452 29.5427 43.7107C27.9772 45.2762 25.4391 45.2762 23.8736 43.7107Z", fill: "#1D222A" })));
 };
 
-var Icon$1i = function (props) {
+var Icon$1j = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("circle", { cx: "48", cy: "48", r: "48", fill: "white" }),
         React__default['default'].createElement("path", { d: "M44.3288 35.3546V21.7134H19.0926C18.581 21.7134 18.24 22.0544 18.24 22.566V41.8342C18.24 42.3457 18.581 42.6867 19.0926 42.6867H28.8119V77.8129C28.8119 78.3244 29.153 78.6654 29.6645 78.6654H45.5224C46.0339 78.6654 46.375 78.3244 46.375 77.8129V35.3546H44.3288Z", fill: "#29AEFF" }),
         React__default['default'].createElement("path", { d: "M61.8919 17.2798H55.7534H39.2134C38.7019 17.2798 38.3608 17.6208 38.3608 18.1324V73.3792C38.3608 73.8908 38.7019 74.2318 39.2134 74.2318H55.0713C55.5829 74.2318 55.9239 73.8908 55.9239 73.3792V59.397H62.0624C73.6575 59.397 83.0358 50.0187 83.0358 38.4237C83.0358 26.6581 73.487 17.2798 61.8919 17.2798Z", fill: "#2761E7" })));
 };
 
-var Icon$1j = function (props) {
+var Icon$1k = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("g", { clipPath: "url(#clip0)" },
             React__default['default'].createElement("path", { d: "M48.0048 96.0097C74.5172 96.0097 96.0097 74.5172 96.0097 48.0048C96.0097 21.4925 74.5172 0 48.0048 0C21.4925 0 0 21.4925 0 48.0048C0 74.5172 21.4925 96.0097 48.0048 96.0097Z", fill: "#3375BB" }),
@@ -2966,13 +2973,13 @@ var Icon$1j = function (props) {
                 React__default['default'].createElement("rect", { width: "96", height: "96", fill: "white" })))));
 };
 
-var Icon$1k = function (props) {
+var Icon$1l = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("path", { d: "M96 48C96 21.4903 74.5097 0 48 0C21.4903 0 0 21.4903 0 48C0 74.5097 21.4903 96 48 96C74.5097 96 96 74.5097 96 48Z", fill: "#3389FB" }),
         React__default['default'].createElement("path", { d: "M29.6927 35.4245C39.8036 25.5252 56.1965 25.5252 66.3074 35.4245L67.5242 36.6159C68.0298 37.1109 68.0298 37.9134 67.5242 38.4084L63.3616 42.4839C63.1088 42.7314 62.699 42.7314 62.4462 42.4839L60.7717 40.8444C53.7181 33.9384 42.282 33.9384 35.2284 40.8444L33.4351 42.6002C33.1823 42.8477 32.7725 42.8477 32.5197 42.6002L28.3571 38.5247C27.8515 38.0297 27.8515 37.2272 28.3571 36.7322L29.6927 35.4245ZM74.9161 43.8532L78.6208 47.4805C79.1264 47.9755 79.1264 48.778 78.6208 49.2729L61.9159 65.6288C61.4103 66.1237 60.5907 66.1237 60.0851 65.6288C60.0851 65.6288 60.0851 65.6288 60.0851 65.6288L48.229 54.0206C48.1026 53.8968 47.8977 53.8968 47.7713 54.0206C47.7713 54.0206 47.7713 54.0206 47.7713 54.0206L35.9153 65.6288C35.4098 66.1237 34.5902 66.1237 34.0846 65.6288C34.0846 65.6288 34.0846 65.6288 34.0846 65.6288L17.3792 49.2727C16.8736 48.7778 16.8736 47.9753 17.3792 47.4803L21.0839 43.853C21.5895 43.3581 22.4091 43.3581 22.9146 43.853L34.771 55.4614C34.8974 55.5851 35.1023 55.5851 35.2287 55.4614C35.2287 55.4614 35.2287 55.4614 35.2287 55.4614L47.0844 43.853C47.59 43.358 48.4096 43.358 48.9152 43.853C48.9152 43.853 48.9152 43.853 48.9152 43.853L60.7715 55.4614C60.8979 55.5851 61.1028 55.5851 61.2292 55.4614L73.0854 43.8532C73.5909 43.3583 74.4105 43.3583 74.9161 43.8532Z", fill: "white" })));
 };
 
-var Icon$1l = function (props) {
+var Icon$1m = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
         React__default['default'].createElement("path", { d: "M24 0H8C3.58172 0 0 3.58172 0 8V24C0 28.4183 3.58172 32 8 32H24C28.4183 32 32 28.4183 32 24V8C32 3.58172 28.4183 0 24 0Z", fill: "#1E2026" }),
         React__default['default'].createElement("path", { d: "M16.2857 4L9.97035 7.6761L12.2922 9.03415L16.2857 6.7161L20.2792 9.03415L22.6011 7.6761L16.2857 4Z", fill: "#F0B90B" }),
@@ -2987,7 +2994,7 @@ var Icon$1l = function (props) {
         React__default['default'].createElement("path", { d: "M6 14.6302L8.32183 15.9883V20.6244L12.3154 22.9424V25.6585L6 21.9824V14.6302Z", fill: "#F0B90B" })));
 };
 
-var Icon$1m = function (props) {
+var Icon$1n = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React__default['default'].createElement("circle", { cx: "48", cy: "48", r: "48", fill: "#F5F5F5" }),
         React__default['default'].createElement("path", { d: "M56.5504425,41.9387033 L56.5504425,50.4659601 L47.3948342,50.4659601 L47.3948342,85.5971142 L45.0078131,84.7075452 C43.8992633,84.2955753 42.1136272,83.5937969 39.9052997,82.5918134 L38.8675775,82.1177881 L38.8675775,14.6817622 L47.9569067,11.8769231 L56.5504425,14.5267861 L56.5504425,23.7259307 L47.9569067,21.0669705 L47.3948342,21.2411155 L47.3948342,41.9387033 L56.5504425,41.9387033 Z M16,50.4659926 L16,21.7739797 L36.1702794,15.548296 L36.1702794,24.7052039 L24.526282,28.3200122 L24.526282,41.9387358 L36.1702794,41.9387358 L36.1702794,81.3806284 L33.591244,80.0543973 C25.5662786,75.923652 16,68.9585019 16,59.2339983 L16,54.6496962 L24.526282,54.6496962 L24.526282,59.2339983 C24.526282,61.2460878 25.5734263,63.3605199 27.6426978,65.5373324 L27.6426978,50.4659926 L16,50.4659926 Z M59.1389325,15.3302574 L79.8040306,21.7261873 L79.8040306,50.4659601 L67.6710627,50.4659601 L67.6710627,62.9111544 C67.6710627,62.9111544 64.9581695,66.4674811 59.1464051,69.4451657 C59.1464051,67.0682164 59.1389325,15.3302574 59.1389325,15.3302574 Z M71.2780734,41.9387033 L71.2780734,28.2783928 L67.6710627,27.1649695 L67.6710627,41.9387033 L71.2780734,41.9387033 Z M71.2780734,59.8661186 L71.2780734,54.6495662 L79.8040306,54.6495662 L79.8040306,59.8661186 C79.8040306,74.3588162 58.7760221,82.7005566 52.330058,84.9127828 L49.9859233,85.7230769 L49.9859233,76.7068496 L51.1311866,76.2744112 C61.1591444,72.5004032 71.2780734,65.962818 71.2780734,59.8661186 Z", fill: "#000000" })));
@@ -3003,37 +3010,37 @@ exports.ConnectorNames = void 0;
 var connectors = [
     {
         title: "Metamask",
-        icon: Icon$1g,
-        connectorId: exports.ConnectorNames.Injected,
-    },
-    {
-        title: "TrustWallet",
-        icon: Icon$1j,
-        connectorId: exports.ConnectorNames.Injected,
-    },
-    {
-        title: "MathWallet",
         icon: Icon$1h,
         connectorId: exports.ConnectorNames.Injected,
     },
     {
-        title: "TokenPocket",
+        title: "TrustWallet",
+        icon: Icon$1k,
+        connectorId: exports.ConnectorNames.Injected,
+    },
+    {
+        title: "MathWallet",
         icon: Icon$1i,
         connectorId: exports.ConnectorNames.Injected,
     },
     {
+        title: "TokenPocket",
+        icon: Icon$1j,
+        connectorId: exports.ConnectorNames.Injected,
+    },
+    {
         title: "WalletConnect",
-        icon: Icon$1k,
+        icon: Icon$1l,
         connectorId: exports.ConnectorNames.WalletConnect,
     },
     {
         title: "Binance Chain Wallet",
-        icon: Icon$1l,
+        icon: Icon$1m,
         connectorId: exports.ConnectorNames.BSC,
     },
     {
         title: "SafePal Wallet",
-        icon: Icon$1m,
+        icon: Icon$1n,
         connectorId: exports.ConnectorNames.Injected,
     },
 ];
