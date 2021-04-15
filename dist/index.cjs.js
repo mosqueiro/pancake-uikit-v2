@@ -2468,7 +2468,7 @@ var Icon$17 = function (props) {
 
 var Icon$18 = function (props) {
     return (React__default['default'].createElement("svg", { version: "1.1", id: "Layer_1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", width: "32px", height: "24px", viewBox: "0 0 32 24", "enable-background": "new 0 0 32 24" },
-        "  ",
+        " ",
         React__default['default'].createElement("image", { id: "image0", width: "32", height: "24", x: "0", y: "0", href: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAMAAACsjQ8GAAAABGdBTUEAALGPC/xhBQAAACBjSFJN\nAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAtFBMVEX///8HUlAIGxgWS0UW\nTEUURkAVS0QVTEUVS0UVSkUVR0AWS0QVR0EIbmwIHBsYSEEWS0QWTEQYVU0SSUMUQjwWR0EVR0EW\nTEUWTkcWTEUWTEUWTEUWTEUWTEUWTEUWTEUWTEUWTEUWTkcVSEAWS0QVRkATTkgTPzoZQjsWS0QX\nTEUYWFEWTEUXT0cXTkcXUEgXSUIWTUUVSkMYUkoWTUYWS0QXRj8XUUkXTUYWTkYXT0j///8cqVcC\nAAAALHRSTlMAAAAAAAAAAAAAAAAAAACK6uyOho83Mu/s6+zz7fHy/hoNDUQNP4uWkfP1leNLk5QA\nAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5QQIBhQPAPUYyAAAAJ1J\nREFUKM/N0kcTgkAMhmEUEBV7A2wUsX+i4q7t//8wr0ng4knfa56Z3cnEMP6hSrcHUX9QJWB4yiTI\nziMCLtexabHMSX4jQGm75tRJTsPWIMCDH0xZgY8ZAXOUtPgGeFgWYk+EiGJRhJAAwCoEMBDLeSxA\nIkHCgNJNl8/dllYE3NUq5X9M1/mDgM1TyS283lsC2ru9BIdj54f3V+wDizknjbSuOxcAAAAldEVY\ndGRhdGU6Y3JlYXRlADIwMjEtMDQtMDhUMDY6MjA6MTUrMDA6MDDn1Nm6AAAAJXRFWHRkYXRlOm1v\nZGlmeQAyMDIxLTA0LTA4VDA2OjIwOjE1KzAwOjAwlolhBgAAAABJRU5ErkJggg==" })));
 };
 
@@ -2694,11 +2694,11 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/ZCoreMiners",
+                href: "https://t.me/ZCoreFinance",
             },
             {
                 label: "Português",
-                href: "hhttps://t.me/ZCoreMinersPT",
+                href: "hhttps://t.me/ZCoreFinancePT",
             },
             {
                 label: "Announcements",

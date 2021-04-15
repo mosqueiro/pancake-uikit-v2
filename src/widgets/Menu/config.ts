@@ -120,11 +120,11 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/ZCoreMiners",
+        href: "https://t.me/ZCoreFinance",
       },
       {
         label: "Português",
-        href: "hhttps://t.me/ZCoreMinersPT",
+        href: "hhttps://t.me/ZCoreFinancePT",
       },
       {
         label: "Announcements",
