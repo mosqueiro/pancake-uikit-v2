@@ -7,12 +7,13 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, ...
   const isZCore =
     href?.startsWith("https://app.zcore.network") ||
     href?.startsWith("https://zefi.zcore.network") ||
+    href?.startsWith("/") ||
     href?.startsWith("https://swap.zcore.network");
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Tag: any = isHttpLink ? "a" : NavLink;
   const props = isHttpLink ? { href } : { to: href };
-  if (isZCore && isHttpLink) {
+  if (isZCore) {
     return <Tag {...props} {...otherProps} />;
   } else {
     return <Tag target="_blank" {...props} {...otherProps} />;
