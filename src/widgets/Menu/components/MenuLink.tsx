@@ -4,10 +4,19 @@ import { NavLink } from "react-router-dom";
 const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, ...otherProps }) => {
   const isHttpLink = href?.startsWith("http");
 
+  const isZCore =
+    href?.startsWith("https://app.zcore.network") ||
+    href?.startsWith("https://zefi.zcore.network") ||
+    href?.startsWith("https://swap.zcore.network");
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Tag: any = isHttpLink ? "a" : NavLink;
   const props = isHttpLink ? { href } : { to: href };
-  return <Tag target="_blank" {...props} {...otherProps} />;
+  if (isZCore) {
+    return <Tag {...props} {...otherProps} />;
+  } else {
+    return <Tag target="_blank" {...props} {...otherProps} />;
+  }
 };
 
 export default MenuLink;

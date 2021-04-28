@@ -2775,10 +2775,16 @@ var templateObject_1$E, templateObject_2$e;
 var MenuLink = function (_a) {
     var href = _a.href, otherProps = __rest(_a, ["href"]);
     var isHttpLink = href === null || href === void 0 ? void 0 : href.startsWith("http");
+    var isZCore = (href === null || href === void 0 ? void 0 : href.startsWith("https://app.zcore.network")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://zefi.zcore.network")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://swap.zcore.network"));
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     var Tag = isHttpLink ? "a" : NavLink;
     var props = isHttpLink ? { href: href } : { to: href };
-    return React.createElement(Tag, __assign({ target: "_blank" }, props, otherProps));
+    if (isZCore) {
+        return React.createElement(Tag, __assign({}, props, otherProps));
+    }
+    else {
+        return React.createElement(Tag, __assign({ target: "_blank" }, props, otherProps));
+    }
 };
 
 var Icons = IconModule;
