@@ -5,6 +5,7 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, ...
   const isHttpLink = href?.startsWith("http");
 
   const isZCore =
+    href?.startsWith("https://exchange.zcore.network") ||
     href?.startsWith("https://app.zcore.network") ||
     href?.startsWith("https://zefi.zcore.network") ||
     href?.startsWith("/") ||
