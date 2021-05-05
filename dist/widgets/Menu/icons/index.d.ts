@@ -28,3 +28,4 @@ export { default as LiquidityIcon } from "./Liquidity";
 export { default as ListingIcon } from "./Listing";
 export { default as MediumIcon } from "./Medium";
 export { default as WaveIcon } from "./Wave";
+export { default as BarnIcon } from "./Barn";
