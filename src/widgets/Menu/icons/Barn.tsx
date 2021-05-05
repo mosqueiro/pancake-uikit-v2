@@ -4,41 +4,14 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg
-      version="1.1"
-      id="Layer_1"
-      xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      width="32px"
-      height="24px"
-      viewBox="0 0 32 24"
-      enable-background="new 0 0 32 24"
-      {...props}
-    >
-      {" "}
-      <image
-        id="image0"
-        width="32"
-        height="24"
-        x="0"
-        y="0"
-        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAQAAAAxWje/AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAAmJLR0QA/4ePzL8AAAAJcEhZ
-cwAAAOwAAADsAXkocb0AAAAHdElNRQflBQUTADRKt7ZPAAACIElEQVQ4y5XUS0hVURTG8Z9vLSof
-ZGgPC4pmZYO6UqRFNIgIgyIMGmg1kCbpwCbNmjRyagSCRZDYQKxJUkGTEimDGiRFCdkLohINsnzu
-JqfD9d5rj70n3/oW589aa5+9ybT2GPXS7kypkLLTV5UrgiHPBJ0q/xdw1pSgBTQLfmiV/a+AhAeC
-fuVo04JydwVDdv4dUKZDMKIetQYFwSP7cdiIoEPJnwDrvRG0oUD3gny3fJwXvFSxOOCqIIFTvgqC
-GbNmzQiCzxpRJ7i0GKBScBn9guCmvapts021fW4Lgj5cE5RnBrQL8hyNnBM4qN5hB3Aycg8pFFzM
-BCj2TQeGIqfBukjNWqMp0oPoNGZ5OuCcoFRN7By3IdZVMSDYrkzQlg6Y14P7sdOgKtZrNcb6Hm6Y
-TQXkuqBdjT3xH5FrVJM8/PROTuzvk3DacKb7UWMkCdljiwqrrVZpq96kzIhEpiGWLPj8z/tF+hBz
-FcmPa3ltUoGlSdV9N2WJjVGUpyC9gVVeRbDHVpDUtSgqjo/4ubLUCpKv6lsTmJPQa8CAPjXmMG7U
-oisZMKNEt1avddlkk+uGnXFVqZnFAbkLoh82anBMk5XY7JY6T0zyb4AgWxE++Gi5HJ+8R6HsjE9f
-hhZy5LunQbPjJoxp1OKIOwpSBptSQZbCSJeY1IJdanVhh6d69cr//RoplJUOmPfZMjBuGlkGPIzz
-WYJp4ybAF/OpgF++fGF2U3EKLQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wNS0wNVQxOTowMDo1
-MiswMDowMJqCpk0AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDUtMDVUMTk6MDA6NTIrMDA6MDDr
-3x7xAAAAAElFTkSuQmCC"
-      />
+    <Svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" {...props}>
+      <path d="M1.44 25.33 l0 -6.68 0.29 -0.08 c0.45 -0.13 0.91 -0.41 1.28 -0.82 0.34 -0.36 0.81 -1.33 3.47 -7.04 l0.41 -0.88 4.52 -2.75 c2.49 -1.51 4.54 -2.74 4.57 -2.74 0.03 0.01 2.08 1.24 4.56 2.74 l4.51 2.74 1.81 3.78 c1.64 3.43 1.84 3.82 2.14 4.15 0.36 0.38 0.81 0.68 1.25 0.81 l0.26 0.08 0 6.68 0 6.68 -3.06 0 -3.06 0 0 -5.02 0 -5.02 -0.14 -0.28 c-0.08 -0.16 -0.22 -0.33 -0.36 -0.41 -0.22 -0.13 -0.31 -0.13 -7.88 -0.13 -7.57 0 -7.66 0 -7.88 0.13 -0.13 0.08 -0.28 0.24 -0.36 0.41 l-0.14 0.28 0 5.02 0 5.02 -3.09 0 -3.09 0 0 -6.68z m18.82 -6.97 c0.44 -0.29 0.43 -0.14 0.43 -4.32 0 -4.22 0.02 -4.04 -0.47 -4.32 l-0.24 -0.14 -4.04 0.02 c-3.97 0.01 -4.04 0.01 -4.21 0.14 -0.09 0.07 -0.23 0.21 -0.30 0.30 -0.13 0.17 -0.13 0.24 -0.15 3.92 -0.01 3.61 -0.01 3.76 0.11 4.03 0.08 0.17 0.21 0.32 0.33 0.41 0.20 0.12 0.30 0.13 4.28 0.13 l4.07 0 0.21 -0.14z" />
+      <path d="M13.19 14.06 l0 -2.50 2.78 0 2.78 0 0 2.50 0 2.50 -2.78 0 -2.78 0 0 -2.50z" />
+      <path d="M13.91 28.99 c1.03 -0.63 1.93 -1.16 2 -1.19 0.11 -0.05 0.45 0.14 1.98 1.06 1.02 0.62 1.90 1.16 1.97 1.19 0.08 0.04 -0.99 0.06 -3.86 0.07 l-3.96 0 1.87 -1.13z" />
+      <path d="M9.56 26.59 c0 -1.49 0.02 -2.72 0.04 -2.72 0.05 0 4.53 2.71 4.51 2.72 -0.05 0.04 -4.49 2.71 -4.51 2.71 -0.02 0 -0.03 -1.23 -0.03 -2.72z" />
+      <path d="M20.51 28.19 c-1.01 -0.61 -2.01 -1.23 -2.23 -1.36 l-0.40 -0.24 2.24 -1.36 c1.23 -0.74 2.26 -1.36 2.28 -1.36 0.02 0 0.04 1.23 0.04 2.72 0 1.49 -0.02 2.72 -0.04 2.71 -0.03 0 -0.88 -0.51 -1.88 -1.12z" />
+      <path d="M14.04 24.26 l-1.93 -1.17 1.94 -0.02 c1.08 -0.01 2.83 -0.01 3.90 0 l1.95 0.02 -1.88 1.14 c-1.04 0.63 -1.92 1.16 -1.97 1.17 -0.04 0.01 -0.95 -0.50 -2.01 -1.14z" />
+      <path d="M0.53 16.63 c-0.32 -0.19 -0.43 -0.36 -0.46 -0.72 -0.03 -0.33 0 -0.39 1.92 -4.48 1.08 -2.28 2.01 -4.21 2.09 -4.28 0.08 -0.08 2.72 -1.70 5.88 -3.62 5.29 -3.21 5.76 -3.48 6.02 -3.48 0.25 0 0.71 0.27 6.01 3.48 3.16 1.92 5.80 3.54 5.87 3.61 0.08 0.06 1.02 1.99 2.12 4.28 1.97 4.13 1.98 4.16 1.96 4.50 -0.07 0.81 -0.98 1.13 -1.52 0.51 -0.08 -0.08 -0.97 -1.90 -1.99 -4.05 l-1.86 -3.91 -5.25 -3.19 c-2.89 -1.75 -5.28 -3.19 -5.32 -3.19 -0.04 0 -2.44 1.44 -5.32 3.19 l-5.26 3.19 -1.83 3.91 c-1.01 2.15 -1.89 3.97 -1.97 4.05 -0.30 0.33 -0.73 0.42 -1.07 0.21z" />
     </Svg>
   );
 };
