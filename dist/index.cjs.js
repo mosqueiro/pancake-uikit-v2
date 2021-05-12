@@ -2906,8 +2906,8 @@ var PriceLink$1 = styled__default['default'].a(templateObject_1$H || (templateOb
 var CakePriceBoost = function (_a) {
     // const newcakePriceUsd = 0;
     var cakePriceUsd = _a.cakePriceUsd;
-    var api = 'https://finance.zcore.network/lp';
-    var _b = React.useState('0.000'), newcakePriceUsd = _b[0], setData = _b[1];
+    var api = "https://finance.zcore.network/lp";
+    var _b = React.useState(0.000), newcakePriceUsd = _b[0], setData = _b[1];
     React.useEffect(function () {
         var fetchData = function () { return __awaiter(void 0, void 0, void 0, function () {
             var response, response_json, error_1;
@@ -2921,11 +2921,11 @@ var CakePriceBoost = function (_a) {
                         return [4 /*yield*/, response.json()];
                     case 2:
                         response_json = _a.sent();
-                        setData(response_json.lp_price);
+                        setData(response_json.lp_price * 0.3);
                         return [3 /*break*/, 4];
                     case 3:
                         error_1 = _a.sent();
-                        console.error('Unable to fetch price data:', error_1);
+                        console.error("Unable to fetch price data:", error_1);
                         return [3 /*break*/, 4];
                     case 4: return [2 /*return*/];
                 }
@@ -2935,7 +2935,7 @@ var CakePriceBoost = function (_a) {
     }, [setData]);
     return cakePriceUsd ? (React__default['default'].createElement(PriceLink$1, { href: "https://zefi.zcore.network/ifo" },
         React__default['default'].createElement(Icon$z, { width: "24px", mr: "8px" }),
-        React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
+        React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePriceBoost$1 = React__default['default'].memo(CakePriceBoost);
 var templateObject_1$H;

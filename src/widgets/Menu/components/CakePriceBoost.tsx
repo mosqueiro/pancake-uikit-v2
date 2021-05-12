@@ -26,14 +26,14 @@ const CakePriceBoost: React.FC<Props> = ({ cakePriceUsd }) => {
   // const newcakePriceUsd = 0;
 
   const api = "https://finance.zcore.network/lp";
-  const [newcakePriceUsd, setData] = useState("0.000");
+  const [newcakePriceUsd, setData] = useState(0.0);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(api);
         const response_json = await response.json();
-        setData(response_json.lp_price);
+        setData(response_json.lp_price * 0.3);
       } catch (error) {
         console.error("Unable to fetch price data:", error);
       }
@@ -45,7 +45,7 @@ const CakePriceBoost: React.FC<Props> = ({ cakePriceUsd }) => {
   return cakePriceUsd ? (
     <PriceLink href="https://zefi.zcore.network/ifo">
       <PancakeRoundBoost width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${newcakePriceUsd}`}</Text>
+      <Text color="textSubtle" bold>{`$${newcakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />

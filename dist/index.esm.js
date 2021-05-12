@@ -2893,8 +2893,8 @@ var PriceLink$1 = styled.a(templateObject_1$H || (templateObject_1$H = __makeTem
 var CakePriceBoost = function (_a) {
     // const newcakePriceUsd = 0;
     var cakePriceUsd = _a.cakePriceUsd;
-    var api = 'https://finance.zcore.network/lp';
-    var _b = useState('0.000'), newcakePriceUsd = _b[0], setData = _b[1];
+    var api = "https://finance.zcore.network/lp";
+    var _b = useState(0.000), newcakePriceUsd = _b[0], setData = _b[1];
     useEffect(function () {
         var fetchData = function () { return __awaiter(void 0, void 0, void 0, function () {
             var response, response_json, error_1;
@@ -2908,11 +2908,11 @@ var CakePriceBoost = function (_a) {
                         return [4 /*yield*/, response.json()];
                     case 2:
                         response_json = _a.sent();
-                        setData(response_json.lp_price);
+                        setData(response_json.lp_price * 0.3);
                         return [3 /*break*/, 4];
                     case 3:
                         error_1 = _a.sent();
-                        console.error('Unable to fetch price data:', error_1);
+                        console.error("Unable to fetch price data:", error_1);
                         return [3 /*break*/, 4];
                     case 4: return [2 /*return*/];
                 }
@@ -2922,7 +2922,7 @@ var CakePriceBoost = function (_a) {
     }, [setData]);
     return cakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://zefi.zcore.network/ifo" },
         React.createElement(Icon$z, { width: "24px", mr: "8px" }),
-        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
+        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePriceBoost$1 = React.memo(CakePriceBoost);
 var templateObject_1$H;
