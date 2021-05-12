@@ -2882,11 +2882,11 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null,
-            React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
-            React.createElement(SocialLinks$1, null)),
+            React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd })),
         React.createElement(SettingsEntry, null,
             React.createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
-            React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }))));
+            React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }),
+            React.createElement(SocialLinks$1, null))));
 };
 var templateObject_1$H, templateObject_2$f, templateObject_3$8;
 

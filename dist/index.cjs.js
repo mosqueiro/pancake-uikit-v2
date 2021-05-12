@@ -2895,11 +2895,11 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container$4, null,
         React__default['default'].createElement(SocialEntry, null,
-            React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
-            React__default['default'].createElement(SocialLinks$1, null)),
+            React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd })),
         React__default['default'].createElement(SettingsEntry, null,
             React__default['default'].createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
-            React__default['default'].createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }))));
+            React__default['default'].createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }),
+            React__default['default'].createElement(SocialLinks$1, null))));
 };
 var templateObject_1$H, templateObject_2$f, templateObject_3$8;
 
