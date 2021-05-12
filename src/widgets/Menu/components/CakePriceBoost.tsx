@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon } from "../../../components/Svg";
+import { PancakeRoundBoost } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
@@ -24,7 +24,7 @@ const PriceLink = styled.a`
 const CakePriceBoost: React.FC<Props> = ({ cakePriceUsd }) => {
   return cakePriceUsd ? (
     <PriceLink href="https://bscscan.com/token/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07" target="_blank">
-      <PancakeRoundIcon width="24px" mr="8px" />
+      <PancakeRoundBoost width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
