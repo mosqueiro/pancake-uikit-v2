@@ -25,7 +25,7 @@ const CakePriceBoost: React.FC<Props> = ({ cakePriceUsd }) => {
   const newcakePriceUsd = 0;
 
   return cakePriceUsd ? (
-    <PriceLink href="https://bscscan.com/token/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07" target="_blank">
+    <PriceLink href="https://zefi.zcore.network/ifo">
       <PancakeRoundBoost width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${newcakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
