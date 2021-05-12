@@ -22,10 +22,12 @@ const PriceLink = styled.a`
 `;
 
 const CakePriceBoost: React.FC<Props> = ({ cakePriceUsd }) => {
+  const newcakePriceUsd = 0;
+
   return cakePriceUsd ? (
     <PriceLink href="https://bscscan.com/token/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07" target="_blank">
       <PancakeRoundBoost width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color="textSubtle" bold>{`$${newcakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
