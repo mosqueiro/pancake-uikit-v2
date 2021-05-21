@@ -6,7 +6,7 @@ import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
 interface Props {
-  cakePriceUsd?: number;
+  newcakePriceUsd?: number;
 }
 
 const PriceLink = styled.a`
@@ -22,11 +22,11 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePriceBoost: React.FC<Props> = ({ cakePriceUsd }) => {
-  return cakePriceUsd ? (
+const CakePriceBoost: React.FC<Props> = ({ newcakePriceUsd }) => {
+  return newcakePriceUsd ? (
     <PriceLink href="https://zefi.zcore.network/ifo">
       <PancakeRoundBoost width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color="textSubtle" bold>{`$${newcakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />

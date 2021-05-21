@@ -2853,10 +2853,10 @@ var templateObject_1$G;
 
 var PriceLink$1 = styled.a(templateObject_1$H || (templateObject_1$H = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePriceBoost = function (_a) {
-    var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://zefi.zcore.network/ifo" },
+    var newcakePriceUsd = _a.newcakePriceUsd;
+    return newcakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://zefi.zcore.network/ifo" },
         React.createElement(Icon$z, { width: "24px", mr: "8px" }),
-        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
+        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePriceBoost$1 = React.memo(CakePriceBoost);
 var templateObject_1$H;
@@ -2910,7 +2910,7 @@ var PanelFooter = function (_a) {
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null,
             React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
-            React.createElement(CakePriceBoost$1, { cakePriceUsd: newcakePriceUsd })),
+            React.createElement(CakePriceBoost$1, { newcakePriceUsd: newcakePriceUsd })),
         React.createElement(SettingsEntry, null,
             React.createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
             React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }),
