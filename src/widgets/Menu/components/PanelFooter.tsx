@@ -44,6 +44,7 @@ const PanelFooter: React.FC<Props> = ({
   currentLang,
   langs,
   setLang,
+  newcakePriceUsd,
 }) => {
   if (!isPushed) {
     return (
@@ -59,7 +60,7 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         <CakePrice cakePriceUsd={cakePriceUsd} />
-        <CakePriceBoost cakePriceUsd={cakePriceUsd} />
+        <CakePriceBoost cakePriceUsd={newcakePriceUsd} />
       </SocialEntry>
       <SettingsEntry>
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
