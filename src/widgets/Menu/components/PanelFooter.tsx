@@ -56,7 +56,7 @@ const PanelFooter: React.FC<Props> = ({
     );
   }
 
-  console.log(newcakePriceUsd);
+  // console.log(newcakePriceUsd);
 
   return (
     <Container>

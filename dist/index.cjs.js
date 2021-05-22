@@ -2867,7 +2867,7 @@ var templateObject_1$G;
 var PriceLink$1 = styled__default['default'].a(templateObject_1$H || (templateObject_1$H = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePriceBoost = function (_a) {
     var newcakePriceUsd = _a.newcakePriceUsd;
-    return newcakePriceUsd ? (React__default['default'].createElement(PriceLink$1, { href: "https://bscscan.com/token/0x7D3550d0B0aC3590834cA6103907CD6Dd41318f8" },
+    return newcakePriceUsd ? (React__default['default'].createElement(PriceLink$1, { target: "_blank", href: "https://bscscan.com/token/0x7D3550d0B0aC3590834cA6103907CD6Dd41318f8" },
         React__default['default'].createElement(Icon$z, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -2920,7 +2920,7 @@ var PanelFooter = function (_a) {
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
                 React__default['default'].createElement(Icon$m, null))));
     }
-    console.log(newcakePriceUsd);
+    // console.log(newcakePriceUsd);
     return (React__default['default'].createElement(Container$4, null,
         React__default['default'].createElement(SocialEntry, null,
             React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
