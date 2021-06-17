@@ -54,6 +54,7 @@ export interface PanelProps {
   langs: Language[];
   setLang: (lang: Language) => void;
   links: Array<MenuEntry>;
+  newcakePriceUsd?: number;  
 }
 
 export interface NavProps extends PanelProps {
