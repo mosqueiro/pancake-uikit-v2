@@ -33,31 +33,15 @@ const Avatar: React.FC<AvatarProps> = ({ profile }) => {
   const link = profile.username ? profileLink : noProfileLink;
   const isExternal = link.startsWith("http");
   const ariaLabel = "Link to profile";
-  const icon = image ? (
-    <img src={image} alt="profile avatar" height="32px" width="32px" />
-  ) : (
-    <NoProfileAvatar width="32px" height="32px" />
+  const icon = (
+    <img src="/images/certik.png" alt="profile avatar" height="129px" width="32px" />
   );
 
-  if (isExternal) {
     return (
       <StyledAvatar title={username}>
-        <a href={link} aria-label={ariaLabel}>
           {icon}
-        </a>
-        {showPip && <Pip />}
       </StyledAvatar>
     );
-  }
-
-  return (
-    <StyledAvatar title={username}>
-      <Link to={link} aria-label={ariaLabel}>
-        {icon}
-      </Link>
-      {showPip && <Pip />}
-    </StyledAvatar>
-  );
 };
 
 export default Avatar;
