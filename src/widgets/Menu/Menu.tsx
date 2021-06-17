@@ -42,7 +42,7 @@ const BodyWrapper = styled.div`
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-grow: 1;
   margin-top: ${({ showMenu }) => (showMenu ? `${MENU_HEIGHT}px` : 0)};
-  transition: margin-top 0.2s;
+  transition: margin-top 0.2s, margin-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate3d(0, 0, 0);
   max-width: 100%;
 
@@ -71,7 +71,6 @@ const Menu: React.FC<NavProps> = ({
   setLang,
   currentLang,
   cakePriceUsd,
-  newcakePriceUsd,
   links,
   profile,
   children,
@@ -125,7 +124,7 @@ const Menu: React.FC<NavProps> = ({
         />
         <Flex>
           <UserBlock account={account} login={login} logout={logout} />
-          {/* {profile && <Avatar profile={profile} />}*/}
+          {profile && <Avatar profile={profile} />}
         </Flex>
       </StyledNav>
       <BodyWrapper>
@@ -139,7 +138,6 @@ const Menu: React.FC<NavProps> = ({
           setLang={setLang}
           currentLang={currentLang}
           cakePriceUsd={cakePriceUsd}
-          newcakePriceUsd={newcakePriceUsd}
           pushNav={setIsPushed}
           links={links}
         />

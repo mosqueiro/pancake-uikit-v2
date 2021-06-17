@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { SvgProps } from "../../../components/Svg";
 import * as IconModule from "../icons";
 import Accordion from "./Accordion";
-import { MenuEntry, LinkLabel } from "./MenuEntry";
+import { MenuEntry, LinkLabel, LinkStatus } from "./MenuEntry";
 import MenuLink from "./MenuLink";
 import { PanelProps, PushedProps } from "../types";
 
@@ -12,7 +12,7 @@ interface Props extends PanelProps, PushedProps {
   isMobile: boolean;
 }
 
-const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
+const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
 
 const Container = styled.div`
   display: flex;
@@ -46,6 +46,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
               pushNav={pushNav}
               icon={iconElement}
               label={entry.label}
+              status={entry.status}
               initialOpenState={initialOpenState}
               className={calloutClass}
               isActive={entry.items.some((item) => item.href === location.pathname)}
@@ -53,7 +54,14 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
               {isPushed &&
                 entry.items.map((item) => (
                   <MenuEntry key={item.href} secondary isActive={item.href === location.pathname} onClick={handleClick}>
-                    <MenuLink href={item.href}>{item.label}</MenuLink>
+                    <MenuLink href={item.href}>
+                      <LinkLabel isPushed={isPushed}>{item.label}</LinkLabel>
+                      {item.status && (
+                        <LinkStatus color={item.status.color} fontSize="14px">
+                          {item.status.text}
+                        </LinkStatus>
+                      )}
+                    </MenuLink>
                   </MenuEntry>
                 ))}
             </Accordion>
@@ -64,6 +72,11 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
             <MenuLink href={entry.href} onClick={handleClick}>
               {iconElement}
               <LinkLabel isPushed={isPushed}>{entry.label}</LinkLabel>
+              {entry.status && (
+                <LinkStatus color={entry.status.color} fontSize="14px">
+                  {entry.status.text}
+                </LinkStatus>
+              )}
             </MenuLink>
           </MenuEntry>
         );

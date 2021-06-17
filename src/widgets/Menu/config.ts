@@ -1,3 +1,20 @@
+import { LinkStatus } from "./types";
+
+export const status = {
+  LIVE: <LinkStatus>{
+    text: "LIVE",
+    color: "failure",
+  },
+  SOON: <LinkStatus>{
+    text: "SOON",
+    color: "warning",
+  },
+  NEW: <LinkStatus>{
+    text: "NEW",
+    color: "success",
+  },
+};
+
 export const links = [
   {
     label: "Home",
@@ -22,6 +39,7 @@ export const links = [
     label: "Farms",
     icon: "FarmIcon",
     href: "/farms",
+    status: status.LIVE,
   },
   {
     label: "Pools",
@@ -39,12 +57,20 @@ export const links = [
     href: "/nft",
   },
   {
+    label: "Team Battle",
+    icon: "TeamBattleIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
+  {
     label: "Profile & Teams",
     icon: "GroupsIcon",
+    status: status.LIVE,
     items: [
       {
         label: "Leaderboard",
         href: "/teams",
+        status: status.NEW,
       },
       {
         label: "YourProfile",
@@ -120,22 +146,62 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/ZCoreFinance",
+        href: "https://t.me/pancakeswap",
+      },
+      {
+        label: "Bahasa Indonesia",
+        href: "https://t.me/PancakeSwapIndonesia",
+      },
+      {
+        label: "中文",
+        href: "https://t.me/PancakeSwap_CN",
+      },
+      {
+        label: "Tiếng Việt",
+        href: "https://t.me/PancakeSwapVN",
+      },
+      {
+        label: "Italiano",
+        href: "https://t.me/pancakeswap_ita",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/pancakeswap_ru",
+      },
+      {
+        label: "Türkiye",
+        href: "https://t.me/pancakeswapturkiye",
       },
       {
         label: "Português",
-        href: "hhttps://t.me/ZCoreFinancePT",
+        href: "https://t.me/PancakeSwapPortuguese",
+      },
+      {
+        label: "Español",
+        href: "https://t.me/PancakeswapEs",
+      },
+      {
+        label: "日本語",
+        href: "https://t.me/pancakeswapjp",
+      },
+      {
+        label: "Français",
+        href: "https://t.me/pancakeswapfr",
       },
       {
         label: "Announcements",
-        href: "https://t.me/ZCoreCrypto",
+        href: "https://t.me/PancakeSwapAnn",
+      },
+      {
+        label: "Whale Alert",
+        href: "https://t.me/PancakeSwapWhales",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/zcorecrypto",
+    href: "https://twitter.com/pancakeswap",
   },
 ];
 

@@ -5,7 +5,6 @@ import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
 import CakePrice from "./CakePrice";
-import CakePriceBoost from "./CakePriceBoost";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
@@ -44,7 +43,6 @@ const PanelFooter: React.FC<Props> = ({
   currentLang,
   langs,
   setLang,
-  newcakePriceUsd,
 }) => {
   if (!isPushed) {
     return (
@@ -56,18 +54,15 @@ const PanelFooter: React.FC<Props> = ({
     );
   }
 
-  // console.log(newcakePriceUsd);
-
   return (
     <Container>
       <SocialEntry>
         <CakePrice cakePriceUsd={cakePriceUsd} />
-        <CakePriceBoost newcakePriceUsd={newcakePriceUsd} />
+        <SocialLinks />
       </SocialEntry>
       <SettingsEntry>
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
         <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
-        <SocialLinks />
       </SettingsEntry>
     </Container>
   );
