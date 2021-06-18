@@ -32,3 +32,4 @@ export { default as WaveIcon } from "./Wave";
 export { default as GooseIcon } from "./Goose";
 export { default as NoProfileAvatarIcon } from "./NoProfileAvatar";
 export { default as AuditIcon } from "./Audit";
+export { default as VaultsIcon } from "./Vaults";
