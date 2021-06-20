@@ -36,7 +36,7 @@ export const lightColors: Colors = {
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #e9ffe5 0%, #f1ffef 100%)",
     inverseBubblegum: "linear-gradient(139.73deg, #f2ffef 0%, #e5ffe6 100%)",
-    cardHeader: "linear-gradient(111.68deg, #ecf2ec 0%, #eaf6e8 100%)",
+    cardHeader: "linear-gradient(111.68deg, #ecf2ec 0%, #cef0c8 100%)",
     blue: "linear-gradient(180deg, #b0f1a7 0%, #aff294 100%)",
     violet: "linear-gradient(180deg, #d4fbc9 0%, #c0fab8 100%)",
     violetAlt: "linear-gradient(180deg, #ceefcb 0%, #9bd09a 100%)",
@@ -67,7 +67,7 @@ export const darkColors: Colors = {
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #0f5f54 0%, #31542a 100%)",
     inverseBubblegum: "linear-gradient(139.73deg, #31542a 0%, #0f5f54 100%)",
-    cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #304530 100%)",
+    cardHeader: "linear-gradient(166.77deg, #3b553b 0%, #0f5f54 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
     violet: "linear-gradient(180deg, #499949 0%, #5bb24d 100%)",
     violetAlt: "linear-gradient(180deg, #487543 0%, #5c8d57 100%)",
